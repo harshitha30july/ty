@@ -1,0 +1,44 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    color: yellow;
+    background-color: red;
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+canvas{
+    border: 2px solid crimson;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px crimson;}
+    to{box-shadow: 1px 1px 38px purple;}
+}
+
+#timer
+{
+  float: right; 
+  font-size: 25px; 
+  margin-right: 20px;
+}
+
+#score
+{
+    font-size: 25px; 
+  margin-left   : 20px; 
+}
